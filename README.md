@@ -107,7 +107,7 @@ Works on Hugging Face Spaces with zero setup
 
 ## Installation (Local Development)
 1. Clone the repository
-git clone https://github.com/<your-username>/<repo-name>.git
+git clone https://github.com/ArzooMJ/BI_dashoard
 cd <repo-name>
 
 2. Install dependencies

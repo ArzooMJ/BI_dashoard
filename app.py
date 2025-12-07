@@ -267,15 +267,12 @@ def get_insights(date_col=None):
 # -------------------------
 # 6. Export
 # -------------------------
-# -------------------------
-# 6. Export
-# -------------------------
 def export_filtered_data():
     """Export filtered data to CSV file."""
     df_filtered = dp.get_filtered()
     
     if df_filtered is None or df_filtered.empty:
-        return None, "❌ No data to export. Please load and filter data first."
+        return None, " No data to export. Please load and filter data first."
     
     try:
         import tempfile

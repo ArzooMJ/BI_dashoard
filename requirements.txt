@@ -1,0 +1,9 @@
+gradio>=3.50
+pandas>=1.4
+numpy>=1.21
+plotly>=5.0
+matplotlib>=3.3
+scikit-learn>=1.0
+openpyxl
+python-dateutil
+kaleido
